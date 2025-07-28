@@ -52,3 +52,45 @@ Built for **offline**, **CPU-only**, and **containerized** environments – full
 | `torch`, `numpy`         | Embedding + similarity backend  |
 | `json`, `os`, `re`       | General purpose utilities       |
 
+## 📥 Input / 📤 Output
+
+### ✅ Input
+
+Place this in `input/`:
+
+```json
+{
+  "persona": {
+    "role": "Investment Analyst"
+  },
+  "job_to_be_done": {
+    "task": "Analyze revenue trends and market strategies"
+  },
+  "documents": [
+    { "filename": "file1.pdf" },
+    { "filename": "file2.pdf" }
+  ]
+}
+```
+---
+## 🐳 Docker Instructions
+
+### 🔨 Build the Image
+
+```bash
+docker build --platform linux/amd64 -t adobe_insight_engine .
+```
+---
+### ▶ Run the container
+
+```bash
+docker run --rm \
+  -v "$(pwd)/input:/app/input:ro" \
+  -v "$(pwd)/output:/app/output" \
+  --network none \
+  adobe_insight_engine
+```
+---
+
+
+
