@@ -1,0 +1,77 @@
+{
+    "metadata": {
+        "input_documents": [
+            "Breakfast Ideas.pdf",
+            "Dinner Ideas - Mains_1.pdf",
+            "Dinner Ideas - Mains_2.pdf",
+            "Dinner Ideas - Mains_3.pdf",
+            "Dinner Ideas - Sides_1.pdf",
+            "Dinner Ideas - Sides_2.pdf",
+            "Dinner Ideas - Sides_3.pdf",
+            "Dinner Ideas - Sides_4.pdf",
+            "Lunch Ideas.pdf"
+        ],
+        "persona": "Food Contractor",
+        "job_to_be_done": "Prepare a vegetarian buffet-style dinner menu for a corporate gathering, including gluten-free items.",
+        "processing_timestamp": "2025-07-28T17:01:35.006332Z"
+    },
+    "extracted_sections": [
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "section_title": "Arrange meats, cheeses, olives, and vegetables on a platter.",
+            "importance_rank": 1,
+            "page_number": 3
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "section_title": "Arrange tomatoes, cucumber, onion, green beans, olives, and tuna on a plate.",
+            "importance_rank": 2,
+            "page_number": 11
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "In a large bowl, mix ground beef, ground pork, diced onion, minced garlic, breadcrumbs,",
+            "importance_rank": 3,
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "section_title": "Transfer meat mixture to a baking dish.",
+            "importance_rank": 4,
+            "page_number": 6
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "section_title": "Mix ground pork, chopped shrimp, diced mushrooms, julienned carrots, chopped",
+            "importance_rank": 5,
+            "page_number": 13
+        }
+    ],
+    "subsection_analysis": [
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "o  Serve with breadsticks.  Arancini   Ingredients :",
+            "page_number": 3
+        },
+        {
+            "document": "Dinner Ideas - Sides_4.pdf",
+            "refined_text": "o  Quarter hard-boiled eggs and add to the salad. o  Whisk olive oil, vinegar, mustard, and salt, then drizzle over the salad. o  Toss gently and serve.",
+            "page_number": 11
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "milk, beaten egg, ketchup, Worcestershire sauce, salt, and pepper.   Shape the mixture into a loaf and place in a baking dish.   Bake for 1 hour until cooked through.   Let rest before slicing and serving.",
+            "page_number": 14
+        },
+        {
+            "document": "Dinner Ideas - Mains_1.pdf",
+            "refined_text": "  Spread mashed potatoes over the top and sprinkle with grated cheddar cheese.   Bake for 20-25 minutes until golden and bubbly.   Serve warm. ",
+            "page_number": 6
+        },
+        {
+            "document": "Dinner Ideas - Sides_1.pdf",
+            "refined_text": "green onions, minced garlic, fish sauce, and sugar in a bowl. o  Place a spoonful of filling on each wrapper and roll tightly. o  Fry in hot oil until golden. o  Drain on paper towels and serve with dipping sauce.",
+            "page_number": 13
+        }
+    ]
+}

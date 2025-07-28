@@ -1,0 +1,8 @@
+# For reading and parsing PDF files
+PyMuPDF
+
+# For data validation and schema enforcement
+pydantic
+
+sentence-transformers
+torch 
