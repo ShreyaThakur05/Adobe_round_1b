@@ -73,6 +73,17 @@ Place this in `input/`:
 }
 ```
 ---
+## 📤 Output
+
+The script will produce output files under:
+
+```bash
+output/round1b/Collection_X/challenge1_<id>.json
+```
+
+Each file will contain structured insights based on the provided **persona** and **job-to-be-done**.
+
+
 ## 🐳 Docker Instructions
 
 ### 🔨 Build the Image
